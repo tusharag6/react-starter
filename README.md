@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# React Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React starter template with TypeScript, React Router, testing setup, ESLint, and Prettier.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces. [React](https://reactjs.org/)
 
-## Expanding the ESLint configuration
+- **TypeScript**: A typed superset of JavaScript that adds static typing. [TypeScript](https://www.typescriptlang.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React Router v6**: A declarative routing library for React. [React Router v6](https://reactrouter.com/en/main)
 
-- Configure the top-level `parserOptions` property like this:
+- **Vite**: A fast, opinionated frontend build tool. [Vite](https://vitejs.dev/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- **ESLint**: A pluggable linting utility for JavaScript and TypeScript. [ESLint](https://eslint.org/)
+
+- **Prettier**: An opinionated code formatter. [Prettier](https://prettier.io/)
+
+- **Testing**: Includes Vitest, JSDOM, and React Testing Library for effective testing.
+
+## Getting Started
+
+1. Clone this repository: `git clone https://github.com/tusharag6/react-starter.git`
+
+2. Move to the cloned repository: `cd react-starter`
+
+3. Install dependencies: `npm install`
+
+4. Start the development server: `npm run dev`
+
+5. Open your browser and navigate to `http://localhost:5173`
+
+## Testing
+
+This project includes a testing setup using Vitest, JSDOM, and @testing-library. Run tests with:
+
+```bash
+npm run test
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Code Quality
+
+- **ESLint**: Code is linted using ESLint with TypeScript support.
+
+- **Prettier**: Code is formatted using Prettier for consistent styling.
+
+## References
+
+- [Setting up vite, React, TypeScript, eslint, prettier, vitest, testing-library and react-router](https://youtu.be/cchqeWY0Nak?si=rj5he7wE-dD1P0mj)
+
+- [Common Mistakes with React Testing Library by Kent C. Dodds](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
+
+- [Testing Library Docs - Queries Priority](https://testing-library.com/docs/queries/about#priority)
+
+Feel free to customize and extend this starter to fit your project requirements.
+
+Happy coding!
